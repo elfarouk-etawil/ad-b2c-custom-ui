@@ -111,7 +111,7 @@
   object-fit: cover;
 }
 
-.login-section .email-address {
+.login-section .attrEntry {
   display: flex;
   width: 359px;
   height: 50px;
