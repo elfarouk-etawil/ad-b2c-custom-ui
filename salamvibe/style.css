@@ -14,7 +14,7 @@
 
 .login-section .rectangle {
   position: absolute;
-  width: 1440px;
+  width: fit-content;
   height: 1024px;
   top: 0;
   left: 0;
