@@ -380,3 +380,23 @@
   top: 100px;
   left: 110px;
 }
+
+
+.attrEntry {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.attrEntry label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.attrEntry input, .attrEntry select, .attrEntry button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
