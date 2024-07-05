@@ -14,7 +14,7 @@
 
 .login-section .rectangle {
   position: absolute;
-  width: fit-content;
+  width: 1440px;
   height: 1024px;
   top: 0;
   left: 0;
@@ -381,22 +381,19 @@
   left: 110px;
 }
 
-
-.attrEntry {
-    margin-bottom: 15px;
-    display: flex;
-    flex-direction: column;
-}
-
-.attrEntry label {
-    margin-bottom: 5px;
-    font-size: 14px;
-    color: #333;
-}
-
-.attrEntry input, .attrEntry select, .attrEntry button {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 14px;
+#api input[type="text"],
+#api input[type="password"] {
+  display: flex;
+  width: 359px;
+  height: 50px;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 75px 14px 20px;
+  position: absolute;
+  top: 95px;
+  left: 50px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #919191;
 }
